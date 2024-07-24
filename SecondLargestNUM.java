@@ -14,12 +14,6 @@ public class SecondLargestNUM {
             	secondLarge = num;
             }
         }
-
-        if (secondLarge == Integer.MIN_VALUE) {
-            System.out.println("No second largest element found.");
-            return Integer.MIN_VALUE; 
-        }
-
         return secondLarge;
     }
 
@@ -27,10 +21,6 @@ public class SecondLargestNUM {
         int[] arr = {5, 3, 9, 1, 7, 9};
         int secondLargest = findSecondLargest(arr);
         
-        if (secondLargest == Integer.MIN_VALUE) {
-            System.out.println("No second largest element found.");
-        } else {
-            System.out.println("The second largest element is: " + secondLargest);
-        }
+        
     }
 }
