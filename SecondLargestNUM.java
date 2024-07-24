@@ -20,7 +20,6 @@ public class SecondLargestNUM {
     public static void main(String[] args) {
         int[] arr = {5, 3, 9, 1, 7, 9};
         int secondLargest = findSecondLargest(arr);
-        
-        
+        System.out.println("The second largest element is: " + secondLargest);
     }
 }
